@@ -1,0 +1,59 @@
+.Badge__li-container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    min-width:320px;
+    height: auto;
+    margin: 15px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.badge-link{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Badge__li-container img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.Badge__list-body{
+    margin:10px;
+}
+
+.Badge__title{
+    font-weight: 700;
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+}
+
+.Badge__body-twitter{
+    color: blue;
+    font-style: italic;
+    font-size: medium;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+.Badge__body-twitter span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../images/icon-twitter.png");
+    vertical-align: bottom;
+}
+
+.Badge__body-job{
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    font-style: italic;
+}

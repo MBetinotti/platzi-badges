@@ -1,0 +1,52 @@
+.Home__container{
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background: url('../../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.Home__title{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.Home__title img {
+    width: auto;
+    height: auto;
+    max-width: 225px;
+    max-height: 130px;
+    min-width: 105px;
+    min-height: 60px;
+
+}
+
+
+.Home__title h2{
+    margin: 30px auto}
+
+.Home__title .boton{
+    align-self: center;
+}
+
+.imgContainer{
+    width: 65%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgContainer img{
+    object-fit: cover;
+    min-width: 225px;
+    min-height: 160px;
+    max-width: 650px ;
+    max-height: 465px;
+}
